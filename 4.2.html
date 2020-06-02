@@ -1,0 +1,23 @@
+<!-- Replace your-device-ID-goes-here with your actual device ID
+and replace your-access-token-goes-here with your actual access token-->
+<!DOCTYPE>
+<html>
+  <body>
+  <center>
+  <br>
+  <br>
+  <br>
+  <form action="https://api.particle.io/v1/devices/e00fce68f887f6158cdcd405/led?access_token=e76250da43b1613af14567d0cdf7bb66801bcfbb" method="POST">
+    Tell your device what to do!<br>
+    <br>
+    <input type="radio" name="arg" value="Red">Turn the Red LED on/off.
+    <br>
+    <input type="radio" name="arg" value="Blue">Turn the Blue LED on/off.
+    <br>
+    <input type="radio" name="arg" value="Green">Turn the Green LED on/off.
+    <br>
+    <input type="submit" value="Do it!">
+  </form>
+  </center>
+  </body>
+</html>
